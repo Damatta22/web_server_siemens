@@ -1,5 +1,5 @@
 # web_server_siemens
-Projeto comunicação PLC Siemens Tia Portal via Web Server
+Projeto comunicação PLC Siemens e Software Tia Portal via Web Server
 <h1> Cominicação Web Server com PLC tia Portal Siemens</h1>
   
 <p> O projeto reune Html 5 , Css3, e Java Script dentro de um único arquivo index.html,<br>
@@ -28,4 +28,4 @@ Projeto comunicação PLC Siemens Tia Portal via Web Server
       
       <P> SEGUE ALGUMAS IMAGENS DO PROJETO </p>
       
-     <img src="./wewb1.PNG/>
+     <img src="./assets/wewb1.PNG/>
