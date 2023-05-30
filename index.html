@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- AWP_In_Variable Name='"input_0"' -->
+<!-- AWP_In_Variable Name='"input_1"' -->
+<!-- AWP_In_Variable Name='"input_2"' -->
+<!-- AWP_In_Variable Name='"input_3"' -->
+<!-- AWP_In_Variable Name='"input_4"' -->
+<!-- AWP_In_Variable Name='"input_5"' -->
+<!-- AWP_In_Variable Name='"input_6"' -->
+<!-- AWP_In_Variable Name='"input_7"' -->
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidor de Velocidade e Estiramento</title>
+    <meta http-equiv="refresh" content="10">
+
+
+
+</head>
+
+<body class="bodyfundo">
+
+
+
+    <div class="wrapper">
+
+        <div class="content">
+            <h1 id="tituloprincipal1">MEDIDOR DE VELOCIDADE E ESTIRAMENTO</h1>
+
+        </div>
+
+
+        <div class="logo">
+            <h1 id="tituloprincipal2">CEDRO TÊXTIL - AUTOMAÇÃO GMM</h1>
+
+        </div>
+
+
+        <div class="main">
+
+            <div class="encoder1">
+                <p class="e1">Encoder 1</p>
+                <label class="label1">VELOCIDADE</label>
+                <input type="number" id="inp1" name="velocidade1" readonly></input>
+                <label class="labelmt1">METRAGEM</label>
+                <input type="number" id="inp1mt" name="metragem1" readonly></input>
+                <label class="labeltipodeencoder1">TIPO DE ENCODER - PPM</label>
+                <select id="tipoenc1">
+                    <option>Encoder 300 ppm</option>
+                    <option>Encoder 500 ppm</option>
+                    <option>Encoder 1000 ppm</option>
+                </select>
+
+
+            </div>
+
+            <div class="encoder2">
+                <p class="e2">Encoder 2</p>
+                <label class="label2">VELOCIDADE</label>
+                <input type="number" id="inp2" name="velocidade2" readonly></input>
+                <label class="labelmt2">METRAGEM</label>
+                <input type="number" id="inp2mt" name="metragem2" readonly></input>
+                <label class="labeltipodeencoder2">TIPO DE ENCODER - PPM</label>
+                <select id="tipoenc2">
+                    <option>Encoder 300 ppm</option>
+                    <option>Encoder 500 ppm</option>
+                    <option>Encoder 1000 ppm</option>
+                </select>
+
+            </div>
+
+            <div class="encoder3">
+                <p class="e3">Encoder 3</p>
+                <label class="label3">VELOCIDADE</label>
+                <input type="number" id="inp3" name="velocidade3" readonly></input>
+                <label class="labelmt3">METRAGEM</label>
+                <input type="number" id="inp3mt" name="metragem3" readonly></input>
+                <label class="labeltipodeencoder3">TIPO DE ENCODER - PPM</label>
+                <select id="tipoenc3">
+                    <option>Encoder 300 ppm</option>
+                    <option>Encoder 500 ppm</option>
+                    <option>Encoder 1000 ppm</option>
+                </select>
+            </div>
+
+
+        </div>
+        <h1 class="h1dif">DIFERENCIAL ENTRE ENCODERS</h1>
+        <div class="diferencialdevelocidades">
+
+
+
+            <div class="valordiferencial1e2">
+                <p id="dife1e2">DIFERENÇA ENTRE ENCODERS 1 E 2</p>
+
+                <label class="labeldiferencial1e2">RELAÇÃO ENCODER 1 E 2</label>
+                <input type="number" id="inputdiferencial1e2" name="inputdiferencial1e2" readonly></input>
+
+
+            </div>
+
+            <div class="valordiferencial1e3">
+
+                <p id="dife1e3">DIFERENÇA ENTRE ENCODERS 1 E 3</p>
+
+                <label class="labeldiferencial1e3">RELAÇÃO ENCODER 1 E 3</label>
+                <input type="number" id="inputdiferencial1e3" name="inputdiferencial1e3" readonly></input>
+            </div>
+
+
+
+
+
+
+        </div>
+
+        <footer id="logofinalcedro">CEDRO TÊXTIL - AUTOMAÇÃO GMM</footer>
+
+
+
+
+
+
+        <div id="buttonteste">
+
+            <form>
+                <input id="input3on" type="submit" value="ON_3">
+                <input id="input3on" type="hidden" name='"input_3"' value="1">
+            </form>
+
+            <form>
+                <input id="input3off" type="submit" value="OFF_3">
+                <input id="input3off" type="hidden" name='"input_3"' value="0">
+            </form>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+    <Style>
+        .bodyfundo {
+
+
+            background-color: rgb(64, 61, 70);
+        }
+
+        #tituloprincipal1 {
+
+
+            background-color: rgb(50, 50, 139);
+
+        }
+
+        #tituloprincipal2 {
+
+
+            background-color: white;
+            height: 40px;
+            margin-top: 2%;
+
+
+        }
+
+
+
+
+
+        .content {
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            color: white;
+        }
+
+        .logo {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            color: blue;
+            font-size: 10px;
+
+        }
+
+
+
+
+        .main {
+            margin-top: 20px;
+            margin-left: 2;
+            width: 70%h;
+            height: 26.5vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+
+
+        }
+
+        .encoder1 {
+            margin-top: 10px;
+            width: 60vh;
+            height: 25vw;
+            background-color: rgb(198, 194, 212);
+            display: flex;
+            flex-direction: column;
+
+
+        }
+
+
+
+
+
+        .encoder2 {
+            margin-top: 10px;
+            width: 60vh;
+            height: 25vw;
+            background-color: rgb(198, 194, 212);
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .encoder3 {
+            margin-top: 10px;
+            width: 60vh;
+            height: 25vw;
+            background-color: rgb(198, 194, 212);
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        .e1 {
+            margin-top: 10px;
+            color: black;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+
+
+
+        }
+
+        .e2 {
+            margin-top: 10px;
+            color: black;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .e3 {
+            margin-top: 10px;
+            color: black;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        #inp1 {
+
+            width: 70%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            margin-left: 13%;
+            background-color: whitesmoke;
+            color: white;
+            cursor: pointer;
+
+
+        }
+
+        #inp2 {
+            width: 70%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            margin-left: 13%;
+            background-color: whitesmoke;
+            color: white;
+            cursor: pointer;
+
+        }
+
+        #inp3 {
+            width: 70%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            margin-left: 13%;
+            background-color: whitesmoke;
+            color: white;
+            cursor: pointer;
+
+        }
+
+        .label1 {
+
+            font-size: 20px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            color: blue;
+
+        }
+
+        .label2 {
+
+            font-size: 20px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            color: blue;
+        }
+
+        .label3 {
+
+            font-size: 20px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            color: blue;
+        }
+
+        .labelmt1 {
+
+            font-size: 20px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            color: blue;
+            margin-top: 20px;
+
+        }
+
+        .labelmt2 {
+
+            font-size: 20px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            color: blue;
+            margin-top: 20px;
+        }
+
+        .labelmt3 {
+
+            font-size: 20px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            color: blue;
+            margin-top: 20px;
+        }
+
+        #inp1mt {
+            width: 70%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            margin-left: 13%;
+            background-color: whitesmoke;
+            color: black;
+            cursor: pointer;
+        }
+
+        #inp2mt {
+            width: 70%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 13%;
+            background-color: whitesmoke;
+            color: black;
+            cursor: pointer;
+        }
+
+        #inp3mt {
+            width: 70%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 13%;
+            background-color: whitesmoke;
+            color: black;
+            cursor: pointer;
+        }
+
+        #tipoenc1 {
+            font-size: 20px;
+            width: 250px;
+            height: 40px;
+            display: flex;
+            margin-left: 25%;
+            color: black;
+
+            background-color: whitesmoke;
+            cursor: pointer;
+        }
+
+        #tipoenc2 {
+
+            font-size: 20px;
+            width: 250px;
+            height: 40px;
+            display: flex;
+            margin-left: 25%;
+            color: black;
+            background-color: whitesmoke;
+            cursor: pointer;
+
+        }
+
+
+        #tipoenc3 {
+            font-size: 20px;
+            width: 250px;
+            height: 40px;
+            display: flex;
+            color: black;
+            margin-left: 25%;
+            background-color: whitesmoke;
+            cursor: pointer;
+        }
+
+        .labeltipodeencoder1 {
+
+            font-size: 20px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            color: blue;
+            margin-top: 20px;
+        }
+
+        .labeltipodeencoder2 {
+            font-size: 20px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            color: blue;
+            margin-top: 20px;
+        }
+
+        .labeltipodeencoder3 {
+            font-size: 20px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            color: blue;
+            margin-top: 20px;
+        }
+
+        .diferencialdevelocidades {
+
+
+            margin-top: 20px;
+            margin-left: 5%;
+            width: 100%;
+            height: 30vw;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+
+        }
+
+        .h1dif {
+
+            color: white;
+            background-color: rgb(50, 50, 139);
+            height: 40px;
+            width: 50%;
+            display: flex;
+            margin-top: 5%;
+            margin-left: 25%;
+            justify-content: center;
+        }
+
+        .valordiferencial1e2 {
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+            background-color: rgb(198, 194, 212);
+            width: 500px;
+            height: 350px;
+            margin-left: 15%;
+
+
+
+
+
+        }
+
+        .valordiferencial1e3 {
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+
+            background-color: rgb(198, 194, 212);
+            width: 500px;
+            height: 350px;
+            margin-left: 1%;
+
+        }
+
+        #dife1e2 {
+
+            color: white;
+            height: 30px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: blue;
+
+
+        }
+
+        #dife1e3 {
+
+            color: white;
+            height: 30px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: blue;
+
+        }
+
+        .labeldiferencial1e2 {
+            margin-top: 20%;
+            text-align: center;
+        }
+
+        #inputdiferencial1e2 {
+
+
+            width: 70%;
+            height: 40px;
+            margin-left: 15%;
+            color: black;
+            cursor: pointer;
+        }
+
+        .labeldiferencial1e3 {
+
+
+
+            text-align: center;
+            margin-top: 20%;
+
+        }
+
+        #inputdiferencial1e3 {
+
+
+            width: 70%;
+            height: 40px;
+            margin-left: 15%;
+            color: black;
+            cursor: pointer;
+        }
+
+        #logofinalcedro {
+
+            display: flex;
+            color: white;
+            justify-content: center;
+            font-size: 30px;
+            margin-top: 2%;
+            font-weight: bold;
+
+
+
+        }
+
+        #buttonteste {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 5%;
+            gap: 2%;
+
+        }
+
+
+        #input3on {
+
+            font-size: 20pt;
+            width: 100px;
+            height: 50px;
+
+
+        }
+
+
+        #input3off {
+
+            font-size: 20pt;
+            width: 100px;
+            height: 50px;
+            margin-bottom: 2%;
+        }
+
+        @media screen and (max-width:900px) {
+
+            .wrapper {
+
+                height: 2000px;
+                display: flex;
+                flex-direction: column;
+            }
+
+
+
+            .content {
+                height: 10%;
+                text-align: center;
+                flex-direction: column;
+                display: flex;
+                width: 90%;
+                justify-content: center;
+
+
+
+            }
+
+            #tituloprincipal1 {
+
+                margin-left: 6%;
+               
+            }
+
+            .main {
+
+                margin-top: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+
+
+
+            .logo {
+
+                margin-left: 0%;
+                display: flex;
+                width: 80%;
+                text-align: center;
+                margin-left: 8%;
+                font-size:50% ;
+              
+
+            }
+
+            .encoder1 {
+
+                margin-top: 180%;
+                display: flex;
+                flex-direction: column;
+                height: 2000px;
+            }
+
+            .encoder2 {
+
+                display: flex;
+                flex-direction: column;
+                height: 2000px;
+            }
+
+            .encoder3 {
+
+                display: flex;
+                flex-direction: column;
+                height: 2000px;
+            }
+
+            #inp1 {
+
+                width: 60%;
+                margin-left: 17%;
+            }
+
+            #inp1mt {
+
+                width: 60%;
+                margin-left: 17%;
+            }
+
+
+            #inp2 {
+
+                width: 60%;
+                margin-left: 17%;
+            }
+
+            #inp2mt {
+
+                width: 60%;
+                margin-left: 17%;
+            }
+
+
+
+            #inp3 {
+
+                width: 60%;
+                margin-left: 17%;
+            }
+
+            #inp3mt {
+
+                width: 60%;
+                margin-left: 17%;
+            }
+
+            .h1dif {
+
+                margin-top: 230%;
+                background-color: rgb(64, 61, 70);
+            }
+
+            .diferencialdevelocidades {
+                margin-top: 20%;
+                display: flex;
+                flex-direction: column;
+                margin-left: 0;
+
+            }
+
+            #logofinalcedro {
+
+                margin-top: 90%;
+                text-align: center;
+                font-size: 200%;
+                margin-right: 6%;
+            }
+
+
+            .labeldiferencial1e2 {
+
+                margin-top: 2%;
+            }
+
+
+            .labeldiferencial1e3 {
+
+                margin-top: 2%;
+            }
+
+            .valordiferencial1e2 {
+
+                margin-top: 10%;
+                width: 90%;
+                margin-left: 0%;
+                margin-right: 5%;
+
+            }
+
+
+            .valordiferencial1e3 {
+
+                margin-top: 10%;
+                width: 90%;
+                margin-left: 0%;
+                margin-right: 5%;
+
+
+            }
+
+            .labeltipodeencoder1 {
+
+                margin-bottom: 5%;
+            }
+
+            #tipoenc1 {
+
+                margin-left: 25%;
+            }
+
+            .labeltipodeencoder2 {
+
+                margin-bottom: 5%;
+            }
+
+            #tipoenc2 {
+
+                margin-left: 25%;
+            }
+
+            .labeltipodeencoder3 {
+
+                margin-bottom: 5%;
+            }
+
+            #tipoenc3 {
+
+                margin-left: 25%;
+            }
+
+            #inputdiferencial1e2 {
+
+                align-items: center;
+
+
+            }
+
+            #inputdiferencial1e3 {
+
+                align-items: center;
+            }
+
+
+        }
+    </Style>
+
+
+    <script type="text/javascript">
+
+
+
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
