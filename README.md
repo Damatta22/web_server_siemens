@@ -23,9 +23,9 @@ Projeto comunicação PLC Siemens e Software Tia Portal via Web Server
 </p>
     
     
-    <h1>Foi um projeto onde pude utilizar meus conhecimentos até aqui adquiridos com CSS principalmente, <br>
-      e támbem a interatividade das variavés utilizadas com o JAVA SCRIPT.</h1>
+      Foi um projeto onde pude utilizar meus conhecimentos até aqui adquiridos com CSS principalmente, 
+      e támbem a interatividade das variavés utilizadas com o JAVA SCRIPT.
       
-      <h2> SEGUE ALGUMAS IMAGENS DO PROJETO </h2>
+      SEGUE ALGUMAS IMAGENS DO PROJETO 
       
      <img src="https://user-images.githubusercontent.com/126525418/242125139-a381cd21-1fa0-456e-9503-ea8a2c030579.PNG">
