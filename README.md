@@ -20,7 +20,7 @@ Projeto comunicação PLC Siemens e Software Tia Portal via Web Server
   <p>Como se trata de um projeto webserver é possível acessar-lo através de um smartphone, estando <br>
   conectado na mesma rede, por isso a nescessidade de ter deixado o projeto responsivo,<br>
   com a utilização do media screem. <br>
-<p>
+</p>
     
     <br>
     <p> Foi um projeto onde pude utilizar meus conhecimentos até aqui adquiridos com CSS principalmente, <br>
