@@ -28,4 +28,4 @@ Projeto comunicação PLC Siemens e Software Tia Portal via Web Server
       
       SEGUE ALGUMAS IMAGENS DO PROJETO 
       
-     <img src="https://user-images.githubusercontent.com/126525418/242125139-a381cd21-1fa0-456e-9503-ea8a2c030579.PNG">
+     <img src="https://user-images.githubusercontent.com/126525418/242125150-0e3dad6d-fa21-4116-be68-691670b5c29e.PNG">
