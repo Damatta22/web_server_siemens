@@ -27,3 +27,6 @@ Projeto comunicação PLC Siemens e Software Tia Portal via Web Server
       e támbem a interatividade das variavés utilizadas com o JAVA SCRIPT.
       
      
+<diV> 
+  <img src="https://user-images.githubusercontent.com/126525418/242125150-0e3dad6d-fa21-4116-be68-691670b5c29e.PNG"/>
+  </div>
